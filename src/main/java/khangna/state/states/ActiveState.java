@@ -23,7 +23,7 @@ public class ActiveState implements RealEstateState {
     @Override
     public void onDeactivate(RealEstate realEstate) {
         realEstate.changeState(new InactiveState());
-        System.out.println("Deactive this real estate successfully");
+        System.out.println("Deactivate this real estate successfully");
     }
 
     @Override

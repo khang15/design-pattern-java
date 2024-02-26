@@ -13,6 +13,14 @@ public class RealEstate {
         this.id = id;
     }
 
+    public RealEstateState getRealEstateState() {
+        return realEstateState;
+    }
+
+    public void setRealEstateState(RealEstateState realEstateState) {
+        this.realEstateState = realEstateState;
+    }
+
     public void changeState(RealEstateState realEstateState) {
         this.realEstateState = realEstateState;
     }
