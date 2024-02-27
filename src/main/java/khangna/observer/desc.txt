@@ -1,0 +1,5 @@
+When user pay an apartment:
+ - Project observer: re-count total apartment
+ - Building observer: re-count total apartment
+ - Trade unit observer: deactivate apartment
+ - Admin observer: Got notification
